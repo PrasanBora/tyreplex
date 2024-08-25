@@ -13,6 +13,89 @@
     height: 4vh;
 }
 
+.nav-item{
+  font-weight: 600 !important;
+}
+
+.login {
+  margin-left: 22vw;
+}
+
+.shop-card {
+  /* margin-top: 10vh; */
+  border: 1px solid #ddd;
+  padding: 5vh;
+  background-color: #fff;
+  margin: 0vh 10vw;
+  margin-top: 9vh;
+}
+
+.shop-card .verified {
+  color: green;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.shop-card .rating {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.shop-card .reviews {
+  font-size: 14px;
+  color: #666;
+  margin-left: 10px;
+}
+
+.shop-card .address {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.shop-card .timing {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #999;
+}
+
+.shop-card .btn-get-directions {
+  margin-top: 20px;
+}
+
+.shop-card img {
+  max-width: 100%;
+  height: auto;
+}
+.how-it-works{
+  margin-bottom: 0vh;
+  padding-bottom: 0vh !important;
+}
+
+.how-it-works h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.how-it-works img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.how-it-works p {
+  margin: 0;
+}
+
+.how-it-works .feature-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 .custom-carousel {
     position: relative;
     width: 100%;
@@ -95,25 +178,101 @@
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  
 }
-.search {
-  
-  margin-bottom: 2vw;
-  text-align: center;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: 100;
-  font-size: 40px;
+
+.text 
+{
+  color: black;
 }
 
-.search_tyre{
-  max-width: 80%;
-  margin : 0 10vw;
-  padding: 2vw 3vw;
-  border: 0.5px solid rgb(220, 152, 57);
-  border-radius: 20px;
-  font-weight: 600;
+.search-section {
+  background-image: url('https://trstatic.cardekho.com/images/pwa/banner_01.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  color: #333;
 }
-.search_tyre h3 {
-   margin: 0%;
-   padding: 0%;
-   margin-bottom: 6px;
+.search-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.btn-group .btn.active {
+  background-color: #333;
+  color: #fff;
+}
+.form-check-input:checked {
+  background-color: #f23b3b;
+  border-color: #f23b3b;
+}
+.btn-search {
+  background-color: #f23b3b;
+  border-color: #f23b3b;
+  color: #fff;
+  width: 100%;
+  font-weight: bold;
+}
+
+
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer h5 {
+  color: #f8f9fa;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer .payment-methods img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.footer .social-icons img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.tyre-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+.tyre-card img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+.tyre-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.btn-offer {
+  background-color: #f23b3b;
+  border-color: #f23b3b;
+  color: #fff;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.nav-tabs .nav-link.active {
+  color: #f23b3b;
+  border-color: #f23b3b;
 }
